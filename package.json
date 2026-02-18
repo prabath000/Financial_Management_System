@@ -15,9 +15,9 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "build": {
-        "appId": "com.uswaththa.tms",
-        "productName": "Uswaththa TMS",
-        "copyright": "Copyright © 2026 Uswaththa",
+        "appId": "com.janaka.agency",
+        "productName": "Janaka Agency",
+        "copyright": "Copyright © 2026 Janaka Agency",
         "directories": {
             "output": "dist-electron",
             "buildResources": "electron"
@@ -39,7 +39,7 @@
             "allowToChangeInstallationDirectory": true,
             "createDesktopShortcut": true,
             "createStartMenuShortcut": true,
-            "shortcutName": "Uswaththa TMS"
+            "shortcutName": "Janaka Agency"
         },
         "asar": true
     },

@@ -1,4 +1,4 @@
-# 🏢 Uswaththa TMS - Financial Management System
+# 🏢 Janaka Agency - Financial Management System
 
 > A robust, offline-first Desktop ERP and Financial Management System designed for small to medium businesses.
 
@@ -10,7 +10,7 @@
 
 ## 📋 Overview
 
-**Uswaththa TMS** is a comprehensive Transaction Management System built to streamline financial operations, inventory tracking, and business analytics. Designed with offline reliability in mind, this desktop application empowers businesses to manage their daily operations without dependency on internet connectivity.
+**Janaka Agency** is a comprehensive Transaction Management System built to streamline financial operations, inventory tracking, and business analytics. Designed with offline reliability in mind, this desktop application empowers businesses to manage their daily operations without dependency on internet connectivity.
 
 ---
 
@@ -222,7 +222,7 @@ This project is proprietary software developed for **Uswaththa - Tip Tip & Massm
 
 # 📱 LinkedIn Post Description
 
-**🚀 Excited to share my latest project: Uswaththa TMS - A Complete Financial Management System!**
+**🚀 Excited to share my latest project: Janaka Agency - A Complete Financial Management System!**
 
 After months of development, I'm thrilled to present a comprehensive desktop ERP solution designed for small to medium businesses.
 
@@ -255,7 +255,7 @@ Check out the full project on GitHub: [Your GitHub Link]
 
 ## 🐦 Twitter/X Thread
 
-1/3 🚀 Just launched Uswaththa TMS - A complete financial management desktop app!
+1/3 🚀 Just launched Janaka Agency - A complete financial management desktop app!
 
 Built with React, Electron, and SQLite for offline-first reliability.
 

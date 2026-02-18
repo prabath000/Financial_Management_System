@@ -6,7 +6,7 @@ if not "%1"=="am_admin" (
 )
 
 echo ====================================================
-echo Uswaththa TMS - Cleaning Cache ^& Building
+echo Janaka Agency - Cleaning Cache ^& Building
 echo ====================================================
 echo.
 
