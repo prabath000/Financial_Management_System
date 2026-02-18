@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-electron/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Database files (optional - comment out if you want to include)
+# *.db
+# data.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp

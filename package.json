@@ -1,0 +1,63 @@
+{
+    "name": "financial-management-system",
+    "version": "1.0.0",
+    "description": "Financial Management System for Uswaththa Tip Tip & Massmelos",
+    "author": "Uswaththa",
+    "main": "electron/main.js",
+    "scripts": {
+        "start": "node server/index.js",
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "node server/index.js",
+        "client": "npm.cmd run dev --prefix client",
+        "electron:dev": "cmd /c \"set ELECTRON_RUN_AS_NODE=&& cross-env NODE_ENV=development electron .\"",
+        "desktop:dev": "concurrently \"npm.cmd run client\" \"wait-on http://localhost:5173 && npm.cmd run electron:dev\"",
+        "electron:build": "npm.cmd run build --prefix client && electron-builder",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "build": {
+        "appId": "com.uswaththa.tms",
+        "productName": "Uswaththa TMS",
+        "copyright": "Copyright © 2026 Uswaththa",
+        "directories": {
+            "output": "dist-electron",
+            "buildResources": "electron"
+        },
+        "files": [
+            "electron/**/*",
+            "server/**/*",
+            "client/dist/**/*",
+            "package.json",
+            "node_modules/**/*"
+        ],
+        "win": {
+            "target": "nsis",
+            "icon": "electron/icon.png",
+            "forceCodeSigning": false
+        },
+        "nsis": {
+            "oneClick": false,
+            "allowToChangeInstallationDirectory": true,
+            "createDesktopShortcut": true,
+            "createStartMenuShortcut": true,
+            "shortcutName": "Uswaththa TMS"
+        },
+        "asar": true
+    },
+    "dependencies": {
+        "bcryptjs": "^3.0.3",
+        "better-sqlite3": "^12.6.2",
+        "cors": "^2.8.6",
+        "dotenv": "^17.3.1",
+        "express": "^5.2.1",
+        "jsonwebtoken": "^9.0.3",
+        "mongoose": "^9.2.1"
+    },
+    "devDependencies": {
+        "concurrently": "^9.2.1",
+        "cross-env": "^7.0.3",
+        "electron": "^33.0.0",
+        "electron-builder": "^24.13.0",
+        "electron-rebuild": "^3.2.9",
+        "wait-on": "^7.2.0"
+    }
+}
